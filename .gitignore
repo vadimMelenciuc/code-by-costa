@@ -81,24 +81,40 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+tmp
+/out-tsc
 
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+# dependencies
+node_modules
 
-# vuepress build output
-.vuepress/dist
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Serverless directories
-.serverless/
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# FuseBox cache
-.fusebox/
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
 
-# DynamoDB Local files
-.dynamodb/
+# System Files
+.DS_Store
+Thumbs.db
 
-# TernJS port file
-.tern-port
+.angular
